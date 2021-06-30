@@ -18,7 +18,7 @@ all = 0
 print("<카카오뱅크 26주 적금 with 마켓컬리>")
 money = int(input("얼마씩 누적되나요? : "))
 print(f"{money}원")
-week = int(input("몇 주차인가요? : "))
+week = int(input("현재 몇 주차인가요? : "))
 print(f"{week}주 적금")
 
 for r in range(1, 26+1):
