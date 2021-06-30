@@ -8,7 +8,7 @@ mlastWeek = mlast.isocalendar()[1]       # 2020년 마지막 주차
 n = datetime.datetime.now() #현재 날짜
 nWeek = n.isocalendar()[1] #현재 주차
 
-mDiff = mlastWeek - mWeek  # 2020년 마지막 주차 - 적금 시작한 날의 주차
+mDiff = mlastWeek - mWeek  # 2020년 마지막 주차 - 적금을 시작한 날의 주차
 
 sum26 = 0
 all26 = 0
